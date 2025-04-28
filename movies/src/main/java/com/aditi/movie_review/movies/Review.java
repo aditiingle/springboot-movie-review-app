@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Review {
     @Id
-    private ObjectId id;
+    private ObjectId id; // ID for reviews
     private String body;
 
 }
