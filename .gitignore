@@ -22,7 +22,14 @@ target/
 .DS_Store
 Thumbs.db
 
+MovieClient/movie-gold-v1/node_modules/
+MovieClient/movie-gold-v1/package-lock.json
+MovieClient/movie-gold-v1/build/
+MovieClient/movie-gold-v1/README.md
+
 # Ignore dependency directories
 /.mvn/
 
 HELP.md
+
+
