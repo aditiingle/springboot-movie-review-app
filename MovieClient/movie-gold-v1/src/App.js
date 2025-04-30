@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 
 function App() {
-  const [movies, setMovies] = useState(); // Destructured array items
+  const [movies, setMovies] = useState([]); // Destructured array items
 
   const getMovies = async () => {
     try {
