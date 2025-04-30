@@ -23,7 +23,7 @@ public class Movie {
         private String trailerLink;
         private String poster;
         private List<String> genres;
-        private List<String> backdrop;
+        private List<String> backdrops;
         @DocumentReference // Annotation causes the DB to store only the IDs of the reviews and the reviews will be in a separate collection - called: Manual Reference Relationship
         private List<Review> reviewIds;
 }
